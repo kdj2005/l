@@ -1,5 +1,5 @@
 // URL de l'API backend (gardé cohérent avec main.js)
-const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = 'https://ong-3ani.onrender.com/api';
 
 // ------------------------- Utilitaires -------------------------
 function formatDate(dateString) {
@@ -416,5 +416,6 @@ window.showArticleForm = () => openArticleForm();
 window.hideArticleForm = hideArticleForm;
 window.showTestimonialForm = () => openTestimonialForm();
 window.hideTestimonialForm = hideTestimonialForm;
+
 
 
